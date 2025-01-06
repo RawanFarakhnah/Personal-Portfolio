@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Poppins", Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.3;
+  overflow-y: hidden;
+}
+
+h4,
+h2,
+h1 {
+  color: rgb(101, 42, 66); /* Main brand color for headings */
+}
+
+a,
+a:before,
+a:after {
+  text-decoration: none;
+  color: rgb(101, 42, 66); /* Updated to use main brand color */
+}
+
+ /* Navbar */
+ .top-navbar {
+  background-color: #692a42;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Main About Section */
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-container-navlinks {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-container-navlinks li {
+  padding: 5px 10px;
+}
+
+.navbar-container-navlinks a {
+  text-decoration: none;
+  color: #c0c5c7;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-container-navlinks a:hover {
+  color: #ffc107;
+}
+
+.navbar-container-navlinks a.active {
+  color: #e2e5e7;
+}
+
+.main-container {
+  color: #0a0a23;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.main-container-content {
+  position: absolute;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  height: 100%;
+}
+
+.container-text {
+  flex: 1;
+  margin-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(101, 42, 66);
+}
+
+.container-text > p {
+  margin: 0;
+}
+
+.container-text-name {
+  font-weight: 900;
+  font-size: 4.5rem;
+}
+
+.container-text-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.875rem;
+}
+
+.container-text-subtitle {
+  font-weight: 300;
+  color: rgb(101, 42, 66);
+}
+
+/* Earphone Button */
+.earphone-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #692a42;
+  color: #f8f9fa;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.earphone-icon:hover {
+  transform: scale(1.1);
+}
+
+.earphone-img {
+  width: 20px;
+  height: 20px;
+}
+
+.earphone-span {
+  font-size: 0.9rem;
+}
+
+.btn {
+  background-color: #692a42;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #91415a;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;   
+  margin: 25px auto; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #333;
+  padding-bottom: 20px;
+}
