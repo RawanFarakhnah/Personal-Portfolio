@@ -14,10 +14,17 @@ body {
   overflow-y: hidden;
 }
 
+h5,
 h4,
 h2,
 h1 {
   color: rgb(101, 42, 66); /* Main brand color for headings */
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 a,
@@ -179,6 +186,16 @@ a:after {
   max-width: 800px;   
   margin: 25px auto; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.card-body {
+  padding: 15px;
 }
 
 .card-text {
