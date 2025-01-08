@@ -34,8 +34,8 @@ a:after {
   color: rgb(101, 42, 66); /* Updated to use main brand color */
 }
 
- /* Navbar */
- .top-navbar {
+/* Navbar */
+.top-navbar {
   background-color: #692a42;
   padding: 10px 20px;
   position: sticky;
@@ -130,6 +130,26 @@ a:after {
   color: rgb(101, 42, 66);
 }
 
+.container-text p,
+.container-text h1,
+.container-text h2,
+.container-text h3 {
+  display: inline-block;
+  animation: blink 0.6s step-end infinite;
+}
+
+@keyframes blink {
+  0% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: black;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
 /* Earphone Button */
 .earphone-icon {
   position: fixed;
@@ -183,8 +203,8 @@ a:after {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 800px;   
-  margin: 25px auto; 
+  max-width: 800px;
+  margin: 25px auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
