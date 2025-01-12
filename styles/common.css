@@ -166,6 +166,7 @@ a:after {
   gap: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
+  z-index: 3;
 }
 
 .earphone-icon:hover {
@@ -173,8 +174,8 @@ a:after {
 }
 
 .earphone-img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 .earphone-span {
@@ -223,3 +224,4 @@ a:after {
   color: #333;
   padding-bottom: 20px;
 }
+

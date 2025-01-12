@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rawan Farakhna</title>
-    <link rel="stylesheet" href="styles/common.css" />
-    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="/styles/common.css" />
+    <link rel="stylesheet" href="/styles/skills.css" />
     <base href="/Personal-Portfolio/">
   </head>
   <body class="skills-container">
@@ -75,7 +75,7 @@
               <p>Figma</p>
             </div>
             <div class="skills-card">
-              <img src="https://via.placeholder.com/40" alt="Typography" />
+              <img src="/assets/images/typography-skill.png" alt="Typography" />
               <p>Typography</p>
             </div>
             <div class="skills-card">
@@ -126,14 +126,21 @@
         </div>
       </main>
 
-      <button class="earphone-icon">
+      <button class="earphone-icon" onclick="toggleMusic()">
         <img
-          src="/assets/earphoneOff.svg"
+          width="100"
+          height="100"
+          src="/assets/earphoneOff.png"
           alt="Earphone"
           class="earphone-img"
         /><span class="earphone-span">Sound Off</span>
+        <audio id="background-music" autoplay loop>
+          <source src="/assets/audio/CalmingGuitarLoop.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
       </button>
     </div>
-    <script src="main.js"></script>
+    <script src="/scripts/skills.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
