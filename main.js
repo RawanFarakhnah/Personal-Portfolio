@@ -5,11 +5,11 @@ function toggleMusic() {
 
   if (imageElement.src.includes("earphoneOff.png"))
   {
-    imageElement.src = "/assets/earphoneOn.png"
+    imageElement.src = "./assets/earphoneOn.png"
     spanElement.innerHTML = "Sound On";
     music.play();
   } else {
-    imageElement.src = "/assets/earphoneOff.png"
+    imageElement.src = "./assets/earphoneOff.png"
     spanElement.innerHTML = "Sound Off";
     music.pause();
   }
