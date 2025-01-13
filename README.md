@@ -36,7 +36,7 @@ Check out the live deployment of my portfolio:
 - Highlighting active page for better user experience
 
 **Skills Showcase**
-- Display of key skills, including HTML, CSS, JavaScript, ASP.NET, C#, SQL Server, and more
+- Display of key skills, including HTML, CSS, JavaScript and more
 - Interactive cards with logos and descriptions for each technology/tool
 
 **Project Showcase**
